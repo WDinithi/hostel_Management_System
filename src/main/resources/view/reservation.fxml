@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="696.0" prefWidth="1362.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.IJSE.hostel.Controller.reservationController">
+   <children>
+      <ImageView fitHeight="696.0" fitWidth="1362.0" layoutX="-5.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="456.0" layoutY="9.0" prefHeight="91.0" prefWidth="354.0" style="-fx-font-family: bold;" text="Manage Reservation" textFill="#802a58">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <TableView layoutX="18.0" layoutY="194.0" prefHeight="476.0" prefWidth="1028.0">
+        <columns>
+          <TableColumn fx:id="tbl_id" prefWidth="113.0" text="ID" />
+          <TableColumn fx:id="tbl_date" prefWidth="137.0" text="Date" />
+            <TableColumn prefWidth="157.0" text="Student_Id" />
+            <TableColumn fx:id="tbl_name" prefWidth="187.0" text="name" />
+            <TableColumn fx:id="tblRoom_type_id" prefWidth="189.0" text="Room Type Id" />
+            <TableColumn fx:id="tbl_states" prefWidth="192.0" text="Status" />
+        </columns>
+      </TableView>
+      <Button fx:id="tblAddBtn" layoutX="1091.0" layoutY="237.0" mnemonicParsing="false" onAction="#tblAddBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: #2980B9;" text="+ Add" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="tblUpdateBtn" layoutX="1091.0" layoutY="328.0" mnemonicParsing="false" onAction="#tblUpdateBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: green;" text="Update" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="tblDeleteBtn" layoutX="1090.0" layoutY="417.0" mnemonicParsing="false" onAction="#tblDeleteBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: #C0392B; font-color: hite;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <TextField fx:id="searchId" layoutX="868.0" layoutY="93.0" prefHeight="75.0" prefWidth="459.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </TextField>
+      <Button fx:id="tblBackBtn" layoutX="1092.0" layoutY="577.0" mnemonicParsing="false" onAction="#tblBackBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: #7F8C8D; font-color: hite;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

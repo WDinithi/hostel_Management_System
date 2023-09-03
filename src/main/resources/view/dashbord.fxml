@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="696.0" prefWidth="1362.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.IJSE.hostel.Controller.dashbordController">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="696.0" prefWidth="292.0" style="-fx-background-color: E1E2E6;">
+         <children>
+            <ImageView fitHeight="104.0" fitWidth="98.0" layoutX="76.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-hotel-icon-48.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="159.0" prefHeight="49.0" prefWidth="182.0" text="Dashbord">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+            <Button fx:id="roomsBtn" layoutX="7.0" layoutY="253.0" mnemonicParsing="false" onAction="#roomsBtnOnAction" prefHeight="65.0" prefWidth="276.0" text="Rooms">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="56.0" fitWidth="68.0" layoutX="16.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="studentbtn" layoutX="2.0" layoutY="339.0" mnemonicParsing="false" onAction="#studentbtnOnAction" prefHeight="65.0" prefWidth="276.0" text="Students">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="56.0" fitWidth="68.0" layoutX="12.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="reservationsBtn" layoutX="1.0" layoutY="425.0" mnemonicParsing="false" onAction="#reservationsBtnOnAction" prefHeight="65.0" prefWidth="276.0" text="      Reservations">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="56.0" fitWidth="68.0" layoutX="10.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="settingsBtn" layoutX="2.0" layoutY="522.0" mnemonicParsing="false" onAction="#settingsBtnOnAction" prefHeight="65.0" prefWidth="276.0" text="Settings">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="56.0" fitWidth="68.0" layoutX="13.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="534.0" fitWidth="1058.0" layoutX="300.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/4.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="534.0" fitWidth="1080.0" layoutX="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/4.jpeg" />
+         </image>
+      </ImageView>
+      <Label fx:id="time" layoutX="894.0" layoutY="25.0" onDragDetected="#timeOnAction" prefHeight="77.0" prefWidth="450.0" style="-fx-background-color: E1E2E6;" text="2023-12-22">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="keyMoney" layoutX="342.0" layoutY="379.0" prefHeight="200.0" prefWidth="286.0" style="-fx-background-color: E1E2E6;">
+         <children>
+            <Text layoutX="53.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Key money    Payment" wrappingWidth="231.00000101095065">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="rooms" layoutX="691.0" layoutY="378.0" prefHeight="200.0" prefWidth="286.0" style="-fx-background-color: E1E2E6;">
+         <children>
+            <Text layoutX="53.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30          Rooms" wrappingWidth="231.00000101095065">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="student" layoutX="1037.0" layoutY="375.0" prefHeight="200.0" prefWidth="286.0" style="-fx-background-color: E1E2E6;">
+         <children>
+            <Text layoutX="53.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30      Students" wrappingWidth="231.00000101095065">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
