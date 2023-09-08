@@ -3,12 +3,12 @@ package lk.IJSE.hostel.Controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Button;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 
+
 import java.io.IOException;
+import java.util.Optional;
 
 public class userFormController {
 
@@ -41,6 +41,7 @@ public class userFormController {
     @FXML
     private Button DeleteBtn;
 
+
     @FXML
     void tblBackBtnOnAction(ActionEvent event) {
         try {
@@ -55,6 +56,7 @@ public class userFormController {
 
     @FXML
     void DeleteBtnOnAction(ActionEvent event) {
+        Optional<ButtonType> choose = new Alert(Alert.AlertType.WARNING, "Are you sure?", ButtonType.OK, ButtonType.CANCEL).showAndWait();
 
     }
 

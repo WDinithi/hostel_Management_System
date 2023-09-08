@@ -36,7 +36,7 @@ public class loginController {
 
             } catch (IOException e) {
                 e.printStackTrace();
-                new Alert(Alert.AlertType.WARNING, "User Not Verified!!!").show();
+                new Alert(Alert.AlertType.WARNING, "UserService Not Verified!!!").show();
 
             }
         }

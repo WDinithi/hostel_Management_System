@@ -1,4 +1,7 @@
 package lk.IJSE.hostel.DAO.daos;
 
-public interface userFormDaos {
+import lk.IJSE.hostel.DAO.CrudDAO;
+import lk.IJSE.hostel.Entity.User;
+
+public interface userFormDaos extends CrudDAO<User, String> {
 }

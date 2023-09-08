@@ -1,23 +1,19 @@
-package lk.IJSE.hostel.DTO;
+package lk.IJSE.hostel.TM;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class reservationDTO implements SuperDTO {
+public class ReservationTM {
     private String res_id;
     private LocalDate date;
-
-    @ToString.Exclude
-    private studentFormDTO studentFormDTO;
-
-    @ToString.Exclude
-    private roomFormDTO roomFormDTO;
+    private String student_id;
+    private String student_name;
+    private String room_type_id;
     private String status;
 }
