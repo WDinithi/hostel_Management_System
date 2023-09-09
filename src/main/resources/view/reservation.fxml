@@ -27,19 +27,19 @@
             <TableColumn fx:id="tbl_states" prefWidth="192.0" text="Status" />
         </columns>
       </TableView>
-      <Button fx:id="tblAddBtn" layoutX="1091.0" layoutY="237.0" mnemonicParsing="false" onAction="#tblAddBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: #2980B9;" text="+ Add" textFill="WHITE">
+      <Button fx:id="tblAddBtn" layoutX="1101.0" layoutY="237.0" mnemonicParsing="false" onAction="#tblAddBtnOnAction" prefHeight="58.0" prefWidth="154.0" style="-fx-background-color: #2980B9;" text="+ Add" textFill="WHITE">
          <font>
-            <Font size="34.0" />
+            <Font size="20.0" />
          </font>
       </Button>
-      <Button fx:id="tblUpdateBtn" layoutX="1091.0" layoutY="328.0" mnemonicParsing="false" onAction="#tblUpdateBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: green;" text="Update" textFill="WHITE">
+      <Button fx:id="tblUpdateBtn" layoutX="1105.0" layoutY="328.0" mnemonicParsing="false" onAction="#tblUpdateBtnOnAction" prefHeight="55.0" prefWidth="150.0" style="-fx-background-color: green;" text="Update" textFill="WHITE">
          <font>
-            <Font size="34.0" />
+            <Font size="20.0" />
          </font>
       </Button>
-      <Button fx:id="tblDeleteBtn" layoutX="1090.0" layoutY="417.0" mnemonicParsing="false" onAction="#tblDeleteBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: #C0392B; font-color: hite;" text="Delete" textFill="WHITE">
+      <Button fx:id="tblDeleteBtn" layoutX="1108.0" layoutY="417.0" mnemonicParsing="false" onAction="#tblDeleteBtnOnAction" prefHeight="55.0" prefWidth="146.0" style="-fx-background-color: #C0392B; font-color: hite;" text="Delete" textFill="WHITE">
          <font>
-            <Font size="34.0" />
+            <Font size="20.0" />
          </font>
       </Button>
       <TextField fx:id="searchId" layoutX="868.0" layoutY="93.0" prefHeight="75.0" prefWidth="459.0">
@@ -47,9 +47,9 @@
             <Font size="35.0" />
          </font>
       </TextField>
-      <Button fx:id="tblBackBtn" layoutX="1092.0" layoutY="577.0" mnemonicParsing="false" onAction="#tblBackBtnOnAction" prefHeight="73.0" prefWidth="222.0" style="-fx-background-color: #7F8C8D; font-color: hite;" text="Back" textFill="WHITE">
+      <Button fx:id="tblBackBtn" layoutX="1106.0" layoutY="577.0" mnemonicParsing="false" onAction="#tblBackBtnOnAction" prefHeight="57.0" prefWidth="142.0" style="-fx-background-color: #7F8C8D; font-color: hite;" text="Back" textFill="WHITE">
          <font>
-            <Font size="34.0" />
+            <Font size="20.0" />
          </font>
       </Button>
    </children>
